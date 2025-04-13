@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Stationery - Persediaan & Penjualan</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <div class="overlay">
+    <h1>Happy Stationery</h1>
+    <p class="subtitle">Persediaan & Penjualan Barang</p>
+
+    <div class="form-container">
+      <input type="text" id="kode" placeholder="Kode Barang">
+      <input type="text" id="nama" placeholder="Nama Barang">
+      <input type="number" id="jumlah" placeholder="Jumlah">
+      <input type="number" id="harga" placeholder="Harga Satuan (Rp)">
+      <button onclick="tambahBarang()">Tambah Barang</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Kode</th>
+          <th>Nama</th>
+          <th>Jumlah</th>
+          <th>Harga</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody id="tabelBarang">
+        <!-- Data akan muncul di sini -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script/app.js"></script>
+</body>
+</html>

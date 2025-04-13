@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff5f5;
+  color: #800000;
+}
+
+h2 {
+  color: #b30000;
+}
+
+form, table {
+  background: #ffe6e6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input[type="text"], select {
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #b30000;
+}
+
+input[type="submit"] {
+  background-color: #b30000;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
